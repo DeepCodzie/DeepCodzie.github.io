@@ -273,7 +273,22 @@ img{
 .skills__img img{
     border-radius: .5rem;
 }
-
+.about__name{
+    display: inline-block;
+    font-size: var(--small-font-size);
+    margin-right: var(--mb-2);
+    margin-bottom: var(--mb-3);
+    padding: .25rem .5rem;
+    background-color: var(--white-color);
+    border-radius: .25rem;
+}
+.about__name:hover{
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+.about__img img{
+    border-radius: .5rem;
+}
 /* ===== PORTFOLIO =====*/
 .portfolio{
     background-color: var(--white-color);
@@ -374,7 +389,11 @@ img{
 .footer__social:hover{
     color: var(--first-color);
 }
-
+.high__title{
+    font-size: var(--h2-font-size);
+    color: var(--white-color);
+    margin-bottom: var(--mb-2);
+}
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
 @media screen and (max-width: 320px) {
@@ -486,4 +505,5 @@ img{
         width: 500px;
         right: 24%;
     }
+
 }
