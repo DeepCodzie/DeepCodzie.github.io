@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: deepbasak.me
+Token: 6ffdd9cbf506e72ac1c3b40a727479ad334c3c1bcc00dbba1289a5a7d76097dc
